@@ -15,7 +15,7 @@ build: build-stamp
 build-stamp: configure-stamp
 	dh_testdir
 	# Compile the package.
-	/usr/bin/python2.6 setup.py build
+	/usr/bin/python setup.py build
 	touch build-stamp
 
 clean:
@@ -32,7 +32,7 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 	# Install the package into debian/backuptools
-	/usr/bin/python2.6 setup.py install --no-compile --root=$(CURDIR)/debian/backuptools --prefix=/usr
+	/usr/bin/python setup.py install --no-compile --root=$(CURDIR)/debian/backuptools --prefix=/usr
 	
 # Build architecture-independent files here.
 binary-arch: build install
