@@ -1,0 +1,23 @@
+backuptools (4) unstable; urgency=low
+
+  * Show filename that caused assertion error for size check.
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Thu, 08 Oct 2009 09:39:26 +0200
+
+backuptools (3) unstable; urgency=low
+
+  * makebackupscript.py doesn't crash if it fails to parse a zope.conf file
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Tue, 25 Aug 2009 15:06:38 +0200
+
+backuptools (2) unstable; urgency=low
+
+  * makebackupscript.py uses system zope install
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Mon, 20 Jul 2009 16:58:08 +0200
+
+backuptools (1) unstable; urgency=low
+
+  * Initial release
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Fri, 10 Jul 2009 12:26:56 +0200

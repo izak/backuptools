@@ -1,0 +1,12 @@
+Source: backuptools
+Section: utils
+Priority: optional
+Maintainer: Izak Burger <izak@upfrontsystems.co.za>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.2
+
+Package: backuptools
+Architecture: all
+Depends: ${misc:Depends}
+Description: Various tools used for backups
+ Various tools used for backups
