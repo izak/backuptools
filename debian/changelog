@@ -1,3 +1,9 @@
+backuptools (5) unstable; urgency=low
+
+  * Add AES encryption feature.
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Thu, 26 Jun 2013 12:11:21 +0200
+
 backuptools (4) unstable; urgency=low
 
   * Show filename that caused assertion error for size check.
