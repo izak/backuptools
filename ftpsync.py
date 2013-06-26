@@ -58,9 +58,7 @@ class EncryptedFile(object):
 
 def ftp_login(host):
     login, account, password = netrc().authenticators(host)
-    #server = FTP(host)
-    server = FTP()
-    server.connect(host, 2121)
+    server = FTP(host)
     server.login(login, password, account)
     return server
 
