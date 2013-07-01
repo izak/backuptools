@@ -47,8 +47,9 @@ class EncryptedFile(object):
             return ''
 
         # Pad block up to 16 bytes if necessary
-        padding = (16-(len(block) & 15)) * '\0'
-        if padding:
+        l = len(block) & 15
+        if l:
+            padding = (16-l) * '\0'
             block += padding
             
         return self.crypter.encrypt(block)
