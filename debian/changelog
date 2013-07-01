@@ -1,3 +1,9 @@
+backuptools (6) unstable; urgency=low
+
+  * Add AES decryption tool.
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Mon, 01 Jul 2013 12:44:23 +0200
+
 backuptools (5) unstable; urgency=low
 
   * Add AES encryption feature.
