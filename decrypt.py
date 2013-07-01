@@ -1,12 +1,11 @@
+#!/usr/bin/env python
+
 import sys
 import os
 import struct
 import logging
 from hashlib import sha256
-from ftplib import FTP, error_perm
-from netrc import netrc
 from optparse import OptionParser
-from fnmatch import fnmatch
 
 try:
     from Crypto.Cipher import AES
