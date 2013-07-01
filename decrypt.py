@@ -49,7 +49,6 @@ class DecryptedFile(object):
         return decrypted
 
     def close(self):
-        # Truncate to size on closing
         self.fp.close()
 
 def main(args):
